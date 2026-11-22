@@ -1,23 +1,23 @@
-# 박재인 | Fullstack Engineer
+# 박재인 | 풀스택 엔지니어
 
 AI 개발 체계를 직접 만들어, 한 사람이 맡을 수 있는 범위를 넓혀 온 풀스택 엔지니어입니다.
 
 2인 개발 조직에서 B2B 커머스 플랫폼, 신규 이커머스, 사내 업무 플랫폼, 외부 기관 ERP 연동을 개발하고 운영합니다. 요구사항을 구체화하는 일부터 설계, 개발, 배포, 운영까지 맡고 있습니다.
 
-## How I Work
+## 개발 방식
 
 - 커스텀 스킬, 훅, 서브에이전트로 개발 체계를 구성해 코드 작성·리뷰와 산출물 문서 작성을 자동화했습니다.
 - AI 에이전트가 자주 틀리는 방식을 유형으로 정리해 행동 규율로 만들고, 여러 CLI에 같은 규율을 적용했습니다.
 - 설계 문서는 다른 모델에게 반대 입장에서 검토시키고, 구현은 테스트와 함께 진행합니다.
 - 메일과 메신저로 들어오는 업무 요청을 한 곳에 모아 구체화하고 작업 명세로 만드는 요청 큐를 만들어 쓰고 있습니다.
 
-## What I've Shipped
+## 주요 프로젝트
 
 - **내부망 ERP 연동**
 
   내부망을 외부에 노출할 수 없는 제약을 DMZ 중계 서버 구조로 풀었습니다. 상대 기관과의 기술 협의, 규격 조율, 설계, 구현, 시연까지 단독으로 수행했고 실거래 환경에서 운영하고 있습니다.
 
-- **운영 중인 커머스 플랫폼 인수와 전환**
+- **커머스 플랫폼 자사 전환**
 
   외주사가 운영하던 B2B 커머스 플랫폼을 인수인계 문서 없이 넘겨받아 자사 운영으로 전환했습니다. 이후 주문, 결재, 결제, 정산, 월말 마감 전 과정을 운영하며 고객사 전용몰 10곳을 구축했습니다.
 
@@ -29,23 +29,25 @@ AI 개발 체계를 직접 만들어, 한 사람이 맡을 수 있는 범위를 
 
   외부 공고 데이터 수집부터 영업 기회 판정, 메일 발송까지 자동화했습니다.
 
-## Now
+## 진행 프로젝트
 
-레거시 커머스의 상품 영역을 Spring Boot 기반 신규 모듈로 옮기는 점진적 전환을 설계하고 구현하고 있습니다. (진행 중)
+- **레거시 상품 영역 전환**
 
-## Personal Project
+  레거시 커머스의 상품 영역을 Spring Boot 기반 신규 모듈로 옮기는 점진적 전환을 설계하고 구현하고 있습니다.
+
+## 개인 프로젝트
 
 ### [오픈아이템](https://openitem.co.kr)
 
 세무·급여 계산기와 지원금 정보 자동 수집 기능을 제공하는 웹 서비스입니다. 기획, 개발, 배포, 운영을 단독으로 수행했고 현재 운영 중입니다. (Next.js)
 
-## Tech Stack
+## 기술 스택
 
-- **Backend** — Java, Spring Boot, Servlet/JSP
-- **Frontend** — Next.js, React, TypeScript
-- **Database** — Oracle (PL/SQL), MySQL, Elasticsearch
-- **Infrastructure** — AWS EC2, Linux, Apache, Tomcat, Docker, GitHub Actions
+- **백엔드** — Java, Spring Boot, JPA, Servlet/JSP
+- **프론트엔드** — Next.js, React, TypeScript
+- **데이터베이스** — Oracle (PL/SQL), MySQL, MariaDB, Elasticsearch
+- **인프라** — AWS EC2, Linux, Apache, Tomcat, Docker, GitHub Actions
 
-## Contact
+## 연락처
 
 jipark976@gmail.com
