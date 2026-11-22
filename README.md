@@ -1,60 +1,50 @@
 # 박재인 | Fullstack Engineer
 
-공공기관 대상 B2B/B2G 조달 커머스 플랫폼과 신규 B2B 이커머스, 사내 업무 시스템을 개발·운영하는 풀스택 개발자입니다.
+AI 개발 체계를 직접 만들어, 한 사람이 맡을 수 있는 범위를 넓혀 온 풀스택 엔지니어입니다.
 
-2인 개발 조직에서 레거시 시스템 유지보수와 신규 시스템 개발을 병행하며 요구사항 분석, 기능 설계·개발, 배포, 서버 운영, 장애 대응 및 외부 기관과의 기술 협의를 수행하고 있습니다.
+2인 개발 조직에서 B2B 커머스 플랫폼, 신규 이커머스, 사내 업무 플랫폼, 외부 기관 ERP 연동을 개발하고 운영합니다. 요구사항을 구체화하는 일부터 설계, 개발, 배포, 운영까지 기능 하나를 끝까지 맡습니다.
 
-## What I Work On
+## How I Work
 
-* **B2B/B2G Commerce Platform**
-  
-  공공기관 대상 조달 커머스 플랫폼에서 주문, 결재, PG결제, 정산, 월말 마감 등 핵심 거래 프로세스의 개발·운영을 담당하고 있습니다.
+- 커스텀 스킬, 훅, 서브에이전트로 개발 체계를 구성해 코드 작성·리뷰와 산출물 문서 작성을 자동화했습니다.
+- AI 에이전트가 자주 틀리는 방식을 유형으로 정리해 행동 규율로 만들고, 여러 CLI에 같은 규율을 적용했습니다.
+- 설계 문서는 다른 모델에게 반대 입장에서 검토시키고, 구현은 테스트와 함께 진행합니다.
+- 메일과 메신저로 들어오는 업무 요청을 한 곳에 모아 구체화하고 작업 명세로 만드는 요청 큐를 만들어 쓰고 있습니다.
 
-* **Legacy System Modernization**
-  
-  Java 기반 커스텀 프레임워크, JSP/JSTL, Oracle, Tomcat 환경의 레거시 시스템을 분석하고 신규 모듈 개발 절차, 화면 개발 패턴, SQL 매핑 규칙 등을 문서화했습니다.
+## What I've Shipped
 
-* **Internal Business Platform**
-  
-  Spring Boot와 Next.js 기반 사내 그룹웨어를 구축하고, 매입처 관리, 영업 관리, 사내 비품 관리 기능을 개발·운영하고 있습니다.
+- **내부망 ERP 연동**
 
-* **Infrastructure & Deployment**
-  
-  AWS EC2, Apache/Tomcat, GitHub Actions 기반 배포 환경을 운영하며 서비스 배포, 로그 분석, 장애 대응을 수행합니다.
+  내부망을 외부에 노출할 수 없는 제약을 DMZ 중계 서버 구조로 풀었습니다. 상대 기관과의 기술 협의, 규격 조율, 설계, 구현, 시연까지 단독으로 수행했고 실거래 환경에서 운영하고 있습니다.
+
+- **운영 중인 커머스 플랫폼 인수와 전환**
+
+  외주사가 운영하던 B2B 커머스 플랫폼을 인수인계 문서 없이 넘겨받아 자사 운영으로 전환했습니다. 이후 주문, 결재, 결제, 정산, 월말 마감 전 과정을 운영하며 고객사 전용몰 10곳을 구축했습니다.
+
+- **사내 업무 플랫폼**
+
+  전담 기획자 없이 업무 흐름을 기능 명세로 바꿔, 영업 데이터를 통합하고 통계로 영업 기회를 찾는 사내 플랫폼을 구축했습니다. AWS EC2 구성과 GitHub Actions 자동 배포까지 직접 구성해 운영하고 있습니다.
+
+- **업무 자동화**
+
+  외부 공고 데이터 수집부터 영업 기회 판정, 메일 발송까지 자동화했습니다.
+
+## Now
+
+레거시 커머스의 상품 영역을 Spring Boot 기반 신규 모듈로 옮기는 점진적 전환을 설계하고 구현하고 있습니다. (진행 중)
 
 ## Personal Project
 
 ### [오픈아이템](https://openitem.co.kr)
 
-세무·급여 계산기와 지원금 정보 자동 수집 기능을 제공하는 웹 서비스입니다.
-기획, 개발, 배포, 운영까지 단독으로 수행했습니다.
-
-* Next.js 기반 프론트엔드 구현
-* 계산기 기능 및 정보성 페이지 개발
-* 검색 유입을 고려한 콘텐츠 구조 설계
-* 배포 및 운영 환경 관리
+세무·급여 계산기와 지원금 정보 자동 수집 기능을 제공하는 웹 서비스입니다. 기획, 개발, 배포, 운영을 단독으로 수행했고 현재 운영 중입니다. (Next.js)
 
 ## Tech Stack
 
-### Backend
-
-Java, Spring Boot, JPA, Querydsl, JSP/JSTL
-
-### Frontend
-
-Next.js, React, TypeScript, JavaScript
-
-### Database
-
-Oracle, MySQL, MariaDB
-
-### Infrastructure
-
-AWS EC2, Linux, Apache, Tomcat, GitHub Actions
-
-### AI-assisted Development
-
-Claude Code, Codex, ChatGPT
+- **Backend** — Java, Spring Boot, Servlet/JSP
+- **Frontend** — Next.js, React, TypeScript
+- **Database** — Oracle (PL/SQL), MySQL, Elasticsearch
+- **Infrastructure** — AWS EC2, Linux, Apache, Tomcat, Docker, GitHub Actions
 
 ## Contact
 
